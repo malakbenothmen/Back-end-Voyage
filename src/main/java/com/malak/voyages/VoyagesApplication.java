@@ -21,7 +21,7 @@ public class VoyagesApplication  implements CommandLineRunner {
 	
 	@Override
 	public void run(String... args) throws Exception {
-	repositoryRestConfiguration.exposeIdsFor(Voyage.class);
+	repositoryRestConfiguration.exposeIdsFor(Voyage.class , Type.class);
 	}
 
 }
